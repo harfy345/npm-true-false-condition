@@ -1,14 +1,17 @@
+// Importing the function from the installed package
 const true_then_else_then = require('is-true-then-else-then');
 
+// Defining two functions
+const function1 = () => {
+  console.log("Function 1 executed");
+};
 
+const function2 = () => {
+  console.log("Function 2 executed");
+};
 
-const f1 = ()=>{
-    console.log("1");
-}
-const f2 = ()=>{
-    console.log("2");
-}
-const word = "hello";
+// Boolean condition
+const condition = false;
 
-
-true_then_else_then(true, f1,f2);
+// Executing one of the functions based on the boolean condition
+true_then_else_then(condition, function1, function2);

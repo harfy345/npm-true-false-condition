@@ -1,6 +1,6 @@
 {
   "name": "is-true-then-else-then",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "return a value from two values based on the condition",
   "main": "index.js",
   "scripts": {

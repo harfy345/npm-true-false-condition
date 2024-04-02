@@ -7,7 +7,7 @@ A simple utility function for executing one of two provided functions based on a
 You can install this package via npm:
 
 ```bash
-npm install true-then-else-then
+npm install is-true-then-else-then
 ```
 ## Usage
 ```javascript
@@ -54,7 +54,7 @@ Props
 
 ```javascript
 // Importing the function from the installed package
-const true_then_else_then = require('true-then-else-then');
+const true_then_else_then = require('is-true-then-else-then');
 
 // Defining two functions
 const function1 = () => {
