@@ -46,3 +46,38 @@ Props
  - condition: A boolean value indicating which component to render.
  - item1: The first React component to render.
  - item2: The second React component to render.
+
+
+ ## Pure Javascript use case
+
+ Here's a use case demonstrating how you might use true_then_else_then in a pure JavaScript environment:
+
+```javascript
+// Importing the function from the installed package
+const true_then_else_then = require('true-then-else-then');
+
+// Defining two functions
+const function1 = () => {
+  console.log("Function 1 executed");
+};
+
+const function2 = () => {
+  console.log("Function 2 executed");
+};
+
+// Boolean condition
+const condition = true;
+
+// Executing one of the functions based on the boolean condition
+true_then_else_then(condition, function1, function2);
+
+```
+
+In this use case:
+
+ - We import the true_then_else_then function from the installed true-then-else-then package.
+ - We define two functions, function1 and function2, each containing some code to execute.
+ - We have a boolean condition (condition) that determines which function to execute.
+ - We pass the boolean condition along with the two functions to true_then_else_then, which will execute either function1 or function2 based on the condition.
+
+### This demonstrates how you can use true_then_else_then in a pure JavaScript environment outside of React to execute different functions based on a boolean condition.
