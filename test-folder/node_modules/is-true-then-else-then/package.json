@@ -1,0 +1,23 @@
+{
+  "name": "is-true-then-else-then",
+  "version": "1.0.1",
+  "description": "return a value from two values based on the condition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harfy345/npm-true-false-condition.git"
+  },
+  "keywords": [
+    "npm",
+    "true-false-then"
+  ],
+  "author": "harfy345",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harfy345/npm-true-false-condition/issues"
+  },
+  "homepage": "https://github.com/harfy345/npm-true-false-condition#readme"
+}
