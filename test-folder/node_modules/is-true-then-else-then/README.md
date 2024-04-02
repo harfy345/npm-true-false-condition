@@ -8,8 +8,8 @@ You can install this package via npm:
 
 ```bash
 npm install true-then-else-then
-
-Usage
+```
+## Usage
 javascript
 Copy code
 import React, { useState } from 'react';
