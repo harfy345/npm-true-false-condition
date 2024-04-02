@@ -1,6 +1,6 @@
 {
   "name": "is-true-then-else-then",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "return a value from two values based on the condition",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "npm",
-    "true-false-then"
+    "true-false-then",
+    "react"
   ],
   "author": "harfy345",
   "license": "ISC",
