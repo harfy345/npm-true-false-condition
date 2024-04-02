@@ -1,22 +1,30 @@
-function true_then_else_then(condition, function1, function2) {
-    if (typeof condition !== "boolean") {
-        console.error("Please enter a valide condition!");
-        return;
-    }
-    if (typeof function1 !== "function" ) {
-        console.error("Please provide valid first function!");
-        return;
-    }
-    if (typeof function2 !== "function"){
-        console.error("Please provide valid second function!");        
-        return;
-    }
+const React = require('react');
 
+function true_then_else_then(condition, item1, item2) {
     try {
-        condition ? function1() : function2();
+        if (typeof condition !== "boolean") {
+            console.error("Please enter a valid condition!");
+            return null;
+        }
+
+        // Check if both parameters are functions
+        if (typeof item1 === "function" && typeof item2 === "function") {
+            return condition ? item1() : item2(); // Execute functions and return result
+        }
+
+        // Check if both parameters are React components
+        if (React.isValidElement(item1) && React.isValidElement(item2)) {
+            return condition ? item1 : item2; // Return React components
+        }
+
+        // If none of the above conditions are met, log an error
+        console.error("Please provide either two functions or two React components!");
+        return null;
     } catch (error) {
-        console.error("An error occurred:", error);
+        console.error(error);
+        return null;
     }
 }
+
 
 module.exports = true_then_else_then;
