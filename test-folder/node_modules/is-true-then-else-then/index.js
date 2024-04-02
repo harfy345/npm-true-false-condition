@@ -3,8 +3,8 @@ const React = require('react');
 function true_then_else_then(condition, item1, item2) {
     try {
         if (typeof condition !== "boolean") {
-            console.error("Please enter a valid condition!");
-            return null;
+            throw new Error("Please enter a valid condition!");
+           
         }
 
         // Check if both parameters are functions
@@ -18,11 +18,12 @@ function true_then_else_then(condition, item1, item2) {
         }
 
         // If none of the above conditions are met, log an error
-        console.error("Please provide either two functions or two React components!");
-        return null;
+        throw new Error("Please provide either two functions or two React components!");
+       
     } catch (error) {
         console.error(error);
-        return null;
+        throw new Error(error);
+     
     }
 }
 

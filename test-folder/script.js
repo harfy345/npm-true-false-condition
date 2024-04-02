@@ -11,7 +11,7 @@ const function2 = () => {
 };
 
 // Boolean condition
-const condition = false;
+const condition = true;
 
 // Executing one of the functions based on the boolean condition
-true_then_else_then(condition, function1, function2);
+true_then_else_then( function1, function2);
