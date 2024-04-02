@@ -10,8 +10,8 @@ You can install this package via npm:
 npm install true-then-else-then
 ```
 ## Usage
-javascript
-Copy code
+```javascript
+
 import React, { useState } from 'react';
 import true_then_else_then from 'is-true-then-else-then';
 import './App.css';
@@ -33,6 +33,7 @@ function App() {
 }
 
 export default App;
+```
 In this example:
 
 We import the true_then_else_then function from the is-true-then-else-then package.
