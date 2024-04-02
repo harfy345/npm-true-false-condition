@@ -1,6 +1,9 @@
 # true-then-else-then
 
-A simple utility function for executing one of two provided functions based on a boolean condition.
+#### For react
+Rendering one of two components based on a boolean condition
+#### For Javascript 
+executing one of two provided functions based on a boolean condition.
 
 ## Installation
 
